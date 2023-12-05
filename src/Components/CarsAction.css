@@ -1,0 +1,151 @@
+.carsaction{
+    margin-top: 100px;
+}
+
+.action-top{
+    padding: 25px 321px;
+}
+.action-top p{
+    color: gray;
+}
+.action-top h1{
+    font-family: foundry monoline w01 x bd,sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+
+.action-down{
+    display: flex;
+    padding: 25px;
+}
+
+.action-left{
+    width: 100vw;
+    margin: 0 40px;
+    margin-left: 20px;
+}
+
+.action-left h2{
+    line-height: 1.15;
+    font-family: foundry monoline w01 x bd,sans-serif;
+    font-size: 2.1428571429rem;
+    margin-top: 20px;
+    text-align: left;
+}
+.action-left p{
+    text-align: left;
+    color: gray;
+    font-size: 15px;
+}
+
+.action-right{
+    margin-right: 20px;
+}
+.right1{
+    display: flex;
+    margin: 12px 0;
+}
+.img1{
+    height: 250px;
+    width: 275px;
+}
+.img2{
+    height: 250px;
+    width: 708px;
+}
+.img3{
+    width: 499px;
+    height: 250px;
+}
+
+.right1-info{
+    margin-left: 50px;
+    text-align: start;
+}
+.right1-info p{
+    color: gray;
+    font-size: 15px;
+}
+.right1-info h3{
+    font-size: 25px;
+}
+
+@media screen and (max-width: 1000px){
+    .action-top {
+        padding: 25px 40px;
+    }
+    .action-down{
+        flex-direction: column;
+        margin-left: 7px;
+        padding: 0px;
+    }
+    .action-left{
+        margin: 0 0px;
+       margin-left: 0px;
+    }
+    .img2{
+        width: 90vw;
+        height: 30vh;
+    }
+    .img3{
+        width: 90vw;
+        height: 30vh;
+    }
+    .action-right{
+        margin-top: 20px;
+    }
+    .right1{
+        flex-direction: column;
+    }
+    .action-left h2{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .action-left p{
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    }
+    .img1{
+        width: 90vw;
+        height: 30vh;
+    }
+    .action-left img{
+        width: 90vw;
+    }
+    .right1-info{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .action-down{
+        margin-left: 0px;
+        flex-direction: column;
+    }
+    .right1{
+        flex-direction: column;
+    }
+    .img2{
+        width: 290px;
+    }
+    .action-left img{
+        width: 84%;
+    }
+    .action-left h2{
+        font-size: 1.142857rem;
+        margin-left: 29px;
+        margin-right: 29px;
+    }
+    .action-left p{
+        margin-left: 29px;
+        margin-right: 29px;
+    }
+    .right1-info{
+        margin-left: 29px;
+        margin-bottom: 10px;
+    }
+    .img1{
+        width: 294px;
+    }
+}

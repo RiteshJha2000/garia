@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 1,
+        "img":"https://www.garia.com/assets/Slideshow/_resampled/CroppedFocusedImageWzQwMCwzODQsIngiLDg3XQ/frontpage-slide-design-seats.jpg",
+        "title": "DESIGN SEATS",
+        "desc":"Your own Garia Special Edition. Our Design seats give you the unique possibility to have your name or any other word you desire handstitched to your Garia seats"
+    },
+    {
+        "id" : 2,
+        "img":"https://www.garia.com/assets/Slideshow/_resampled/CroppedFocusedImageWzQwMCwzODQsIngiLDBd/frontpage-slide-limitless-features.jpg",
+        "title": "LIMITLESS FEATURES",
+        "desc":"With the largest cabin in its class, the Garia is designed for comfort. Fitted with features such as a refrigerator option, golf ball and tee holders, air scoop, waste bin, cupholders and a charging port for your devices, everything you need is at your fingertips."
+    },
+    {
+        "id" : 3,
+        "img":"https://www.garia.com/assets/Slideshow/_resampled/CroppedFocusedImageWzQwMCwzODQsIngiLDg3XQ/frontpage-slide-mansory-accessories.jpg",
+        "title": "MANSORY ACCESSIORIES",
+        "desc":"Garia has a long standing collaboration with German high end car tuner Mansory who are experts in carbon fiber construction and finishes. In collaboration we offer a series of products to enhance your Garia with genuine carbon fiber elements."
+    },
+    {
+        "id" : 4,
+        "img":"https://www.garia.com/assets/Slideshow/_resampled/CroppedFocusedImageWzQwMCwzODQsIngiLDg3XQ/frontpage-slide-storage-and-convenience.jpg",
+        "title": "STORAGE AND CONVENIENCE",
+        "desc":"Our vehicles provide lockable storage space for your belongings, so your personal items can remain safe and secure."
+    }
+]
+

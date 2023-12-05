@@ -1,0 +1,40 @@
+.image{
+    background: linear-gradient(90deg,rgba(0,0,0,.1)0,rgba(0,0,0,.1) 45%, rgba(0, 0, 0, 0)),url("https://www.garia.com/assets/Uploads/_resampled/CroppedFocusedImageWzE4MDAsOTAwLCJ5IiwxMTFd/frontpage-supersport-hero.jpg");
+    background-size: cover;
+    /* background-blend-mode: darken; */
+    background-size: 1519px;
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 144px;
+    width: 98.8vw;
+    height: 760px;
+}
+
+.image h1{
+    font-size: 3.4285714286rem;
+    color: #fff;
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px){
+    .image{
+        margin-top: 660px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100vw;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .image{
+        margin-top: 715px;
+    }
+    .image h1{
+        font-size: 2.42rem;
+    }
+}

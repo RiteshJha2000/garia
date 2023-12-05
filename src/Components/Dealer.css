@@ -1,0 +1,25 @@
+.dealer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dealer h2{
+    font-family: foundry monoline w01 x bd,sans-serif;
+    margin-bottom: 0.5rem;
+    font-weight: bolder;
+}
+
+.drop{
+    margin: 10px;
+    width: 15%;
+    min-width: 215px;
+    clear: both;
+    background-color: gray;
+    border: 2px solid white;
+}
+
+.drop1{
+    padding: 5px 65px;
+}

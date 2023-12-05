@@ -1,0 +1,108 @@
+.intro{
+    background: linear-gradient(90deg,rgba(0,0,0,.3)0,rgba(0,0,0,.3) 45%, rgba(0, 0, 0, 0.7)),url("https://www.garia.com/assets/Uploads/_resampled/CroppedFocusedImageWzE4MDAsOTAwLCJ5IiwzMDBd/frontpage-top.jpg");
+    background-size: cover;
+    vertical-align: middle;
+    /* background-blend-mode: darken; */
+    background-size: 1519px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 144px;
+}
+
+.intro{
+    color: white;
+    font-weight: bolder;
+}
+
+.intro p{
+    margin-bottom: 1rem;
+    font-size: inherit;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: foundry monoline w01 bd,sans-serif;
+    text-align: left;
+
+    width: 500px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.intro h1{
+    font-family: foundry monoline w01 x bd,sans-serif;
+    font-weight: 800;
+}
+
+
+.btn{
+    display: flex;
+    flex-direction: column;
+}
+.btn1{
+    min-width: 260px;
+    background-color: #d0af75;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: none;
+    margin: 0 0 1rem;
+    padding: 1em 3em;
+    border: 1px solid transparent;
+    transition: background-color .25s ease-in-out;
+    font-size: .9rem;
+    line-height: 1;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: #cd9331;
+}
+
+.btn2{
+    min-width: 260px;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #fff;
+    text-shadow: none;
+    margin: 0 0 1rem;
+    padding: 1em 3em;
+    border: 1px solid  #d0af75;
+    font-size: .9rem;
+    line-height: 1;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: transparent;
+    border: 1px solid  #cd9331;
+}
+
+
+@media screen and (max-width: 800px){
+    .intro{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0;
+        padding: 20px ;
+    }
+
+    .intro p{
+        width: 420px;
+    }
+}
+@media screen and (max-width: 420px){
+    .intro{
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0;
+        padding: 20px ;
+    }
+
+    .intro p{
+        width: 225px;
+    }
+    .intro h1{
+        margin-bottom: 2.5rem;
+    }
+}
